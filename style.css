@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+*{
+    box-sizing: content-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    background-color: white;
+    
+}
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.logo-container{
+    display: flex;
+
+    width: 50%;
+    
+
+}
+/*.logo-container img{
+    width: -50px;
+    object-fit: cover;
+    margin-right: 20px;
+    
+}*/
+.logo-container p{
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+}
+.g-section{
+    color: pink;
+}
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-items-container a{
+    text-decoration: none;
+    color: black;
+}
+.login-btn{
+    background-color: gainsboro;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
